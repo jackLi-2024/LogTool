@@ -19,13 +19,13 @@ from setuptools import setup
 from setuptools import find_packages
 
 setup(
-    name="LogTool",
-    version="18.11.20",
-    keywords=("pip", "LogTool", "log"),
+    name="loggingtool",
+    version="18.11.22",
+    keywords=("pip", "logging", "loggingtool"),
     description="The package for logging",
     long_description="The package uses the dictionary method of " + 
-                     "logging module to achieve log rollback and other output."
-    license="MIT LICENCE",
+                     "logging module to achieve log rollback and other output.",
+    license="MIT License",
 
     url="https://github.com/lijiacaigit/LogTool",
     author="Lijiacai",

@@ -163,6 +163,7 @@ class LoggingData(object):
         self.data["loggers"] = {}
         self.data["loggers"][self.logger_name] = {}
         self.data["loggers"][self.logger_name]["handlers"] = [self.outputType]
+        self.data["loggers"][self.logger_name]["propagate"] = False
 
     def filters(self):
         """filter of logging"""
